@@ -1,0 +1,52 @@
+div
+{
+     /* background-color: rgb(187, 230, 230); */
+     padding: 50px;
+     font-size: 1.3rem;
+     font-family: 'Noto Sans', sans-serif;
+}
+
+/* ##Device = Desktops ##Screen = 1281px to higher resolution desktop */
+@media (min-width: 1281px) {
+     /* code in this block will be applied only if device width>1281 */
+     div
+     {
+          background-color: rgb(244, 205, 244);
+     }
+}
+
+/* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+     /* code in this block will be applied only if device width>1025 and <1280 */
+     div
+     {
+          background-color: rgb(238, 212, 165);
+     }
+}
+
+/* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+     /* code in this block will be applied only if device width>768 and <1024 */
+     div
+     {
+          background-color: rgb(199, 199, 251);
+     }
+}
+
+/* ##Device = Low Resolution Tablets,  ##Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+     /* code in this block will be applied only if device width>481 and <767 */
+     div
+     {
+          background-color: rgb(211, 232, 181);
+     }
+}
+
+/*  ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+     /* code in this block will be applied only if device width>320 and <480 */
+     div
+     {
+          background-color: rgb(233, 184, 184);
+     }
+}

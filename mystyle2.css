@@ -1,0 +1,36 @@
+*
+{
+     margin: 0px;
+     padding: 0px;
+}
+table
+{
+     font-size: 2rem;
+}
+td
+{
+     padding: 20px;
+}
+#title_image
+{
+     border-radius: 100%;
+}
+.title
+{
+     letter-spacing: 2px;
+     border-bottom: 1px solid black;
+}
+#table_header
+{
+     background-color: rgb(158, 203, 204);
+}
+.img_container
+{
+     height: 525px;
+     width: 1366px;
+     /* https://picsum.photos/1920/1080 */
+     background-image: url('https://picsum.photos/750/750');
+     background-repeat: no-repeat;
+     background-size: cover;
+     /* object-fit: cover; */
+}
